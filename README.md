@@ -12,6 +12,10 @@ Errors will appear in the quickfix window and shown with `:cwindow`.
 
 ## Installation
 
+```
+git clone https://github.com/dgraham/vim-eslint.git ~/.vim/pack/plugins/start/vim-eslint
+```
+
 Optionally add the following key mappings to your `~/.vimrc` file.
 
 ```vim
@@ -20,13 +24,6 @@ noremap <leader>l  :make % <cr>:cwindow<cr>:redraw!<cr>
 
 " lint and fix current file
 noremap <leader>lf :make --fix % <cr>:cwindow<cr>:redraw!<cr>
-```
-
-### Pathogen
-
-```
-cd ~/.vim/bundle
-git clone https://github.com/dgraham/vim-eslint.git
 ```
 
 ## License
