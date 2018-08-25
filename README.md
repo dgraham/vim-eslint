@@ -7,7 +7,7 @@ A Vim plugin for [ESLint][].
 This adds a compiler plugin for JavaScript files, which runs the eslint binary
 located in your project's `node_modules` directory.
 
-Run eslint on all files with `:make` or just the current file with `:make %`.
+Run eslint on all files with `:make .` or just the current file with `:make %`.
 Errors will appear in the quickfix window and shown with `:cwindow`.
 
 ## Installation
